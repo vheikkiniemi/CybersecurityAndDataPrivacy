@@ -1,5 +1,6 @@
 > [!NOTE]
-> The material was created with the help of ChatGPT and Copilot.
+> **🇬🇧 Note on the use of AI:** AI tools such as ChatGPT, Gemini, and Copilot were used to help develop this material.  
+> **🇫🇮 Huomio tekoälyn käytöstä:** Tämän materiaalin laatimisessa on hyödynnetty tekoälytyökaluja, kuten ChatGPT:tä, Geminiä ja Copilotia.  
 
 # 🔐 Introduction to Authorization
 
@@ -172,8 +173,7 @@ This is like trying random hotel room numbers until one opens → a catastrophic
 
 ## 💡 The Principle of Least Privilege (PoLP)
 
-Users should have **only the permissions they absolutely need**, nothing more.
-This reduces damage if accounts are compromised.
+Users should have **only the permissions they absolutely need**, nothing more. This reduces damage if accounts are compromised.
 
 **Analogy:** You give your friend the *mailbox key* 🗳️ when they house-sit → not your *entire keychain*.
 
@@ -213,9 +213,7 @@ Use role-switching tests, session tampering tests, and fuzzing techniques.
 
 ## 🚀 Summary
 
-Authorization is about **controlled access** → deciding *who can do what* in a secure, predictable, and auditable way.
-
-Through real-life metaphors (hotels, restaurants, universities), the core idea becomes clear:
+Authorization is about **controlled access** → deciding *who can do what* in a secure, predictable, and auditable way. Through real-life metaphors (hotels, restaurants, universities), the core idea becomes clear:
 
 > 🔒 **Authentication proves your identity; authorization defines your power.**
 >
@@ -612,6 +610,7 @@ app.listen(3000, () => console.log('Server running on port 3000'));
       res.status(403).send("Access denied!");
   }
   ```
+
 **Well suited for:**
 
 ✅ Web applications with clear and rarely changing user roles.  

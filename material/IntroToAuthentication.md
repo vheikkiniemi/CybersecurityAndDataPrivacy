@@ -1,5 +1,6 @@
 > [!NOTE]
-> The material was created with the help of ChatGPT and Copilot.
+> **🇬🇧 Note on the use of AI:** AI tools such as ChatGPT, Gemini, and Copilot were used to help develop this material.  
+> **🇫🇮 Huomio tekoälyn käytöstä:** Tämän materiaalin laatimisessa on hyödynnetty tekoälytyökaluja, kuten ChatGPT:tä, Geminiä ja Copilotia.  
 
 # 🔐 Authentication Methods → Ensuring Secure Access
 
