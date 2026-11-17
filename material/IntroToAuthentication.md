@@ -2,9 +2,7 @@
 > **🇬🇧 Note on the use of AI:** AI tools such as ChatGPT, Gemini, and Copilot were used to help develop this material.  
 > **🇫🇮 Huomio tekoälyn käytöstä:** Tämän materiaalin laatimisessa on hyödynnetty tekoälytyökaluja, kuten ChatGPT:tä, Geminiä ja Copilotia.  
 
-# 🔐 Authentication Methods → Ensuring Secure Access
-
-## 🧭 Introduction to Authentication
+# 🧭 Introduction to Authentication
 
 **Authentication** means verifying *who you are* before the system grants access.
 
@@ -340,17 +338,13 @@ Because of this, the stored identifier becomes:
 
 > **🎭 Identity Theft = Identifier Theft**
 
-If an attacker obtains the credential that authentication is based on, they can impersonate the user.
-
-They do **not** need to:
+If an attacker obtains the credential that authentication is based on, they can impersonate the user. They do **not** need to:
 
 * guess the password
 * break a cryptographic algorithm
 * bypass biometric sensors
 
-They only need to **copy** the stored credential and present it to the system.
-
-This is why authentication stores are **the number 1 attack target**.
+They only need to **copy** the stored credential and present it to the system. This is why authentication stores are **the number 1 attack target**.
 
 ---
 
@@ -470,10 +464,7 @@ Therefore, the **stored counterpart** of authentication (hash, token, key, certi
 
 ## 🧭 Introduction
 
-Passwords remain the most widely used authentication method.
-Unfortunately, weak password practices and outdated hashing make them highly vulnerable.
-
-Attackers typically approach password cracking in two fundamentally different ways:
+Passwords remain the most widely used authentication method. Unfortunately, weak password practices and outdated hashing make them highly vulnerable. Attackers typically approach password cracking in two fundamentally different ways:
 
 1. **Cracking password hashes**
    → Case: attacker has access to the password **database**

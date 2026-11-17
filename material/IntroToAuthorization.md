@@ -49,9 +49,7 @@ A system without proper authorization is like a hotel where *any room card opens
 
 ## 👤➡️🔑 Role-Based Access Control (RBAC) 
 
-Users are grouped into **roles**, and each role grants specific permissions.
-
-Analogy:
+Users are grouped into **roles**, and each role grants specific permissions. Analogy:
 
 * Teacher → can access classroom and teacher’s lounge
 * Student → can access classroom but not the lounge
@@ -80,22 +78,19 @@ Access is granted based on **explicit rules**, e.g.:
 * “Admins can always delete comments.”
 * “Users may edit only their own profile.”
 
-A bit like traffic laws 🚦:
-everyone follows the same rules, regardless of personal characteristics.
+A bit like traffic laws 🚦→ everyone follows the same rules, regardless of personal characteristics.
 
 ---
 
 ## 🎛️ Discretionary Access Control (DAC) 
 
-The owner of a resource decides who is allowed to access it.
-Comparable to lending your apartment keys to a friend 🔑 → *you decide*, not the building.
+The owner of a resource decides who is allowed to access it. Comparable to lending your apartment keys to a friend 🔑 → *you decide*, not the building.
 
 ---
 
 ## 🛡️ Mandatory Access Control (MAC) 
 
-Used in high-security environments (military, intelligence).
-Data has classifications such as *Confidential, Secret, Top Secret*.
+Used in high-security environments (military, intelligence). Data has classifications such as *Confidential, Secret, Top Secret*.
 
 Users must meet the clearance level → like a movie production set 🎥 where only authorized staff enter restricted scenes.
 
@@ -166,8 +161,7 @@ to
 /profile?id=124
 ```
 
-… and unexpectedly gains access.
-This is like trying random hotel room numbers until one opens → a catastrophic failure.
+… and unexpectedly gains access. This is like trying random hotel room numbers until one opens → a catastrophic failure.
 
 ---
 
